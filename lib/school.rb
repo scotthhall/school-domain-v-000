@@ -1,9 +1,9 @@
 class School
-  attr_reader :roster
+  attr_reader :new
 
-  def roster=(roster)
-    @roster = roster
-    roster = {}
+  def new=(new)
+    @new = new
+    new = {}
   end
 
 
