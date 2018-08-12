@@ -1,11 +1,9 @@
 class School
   attr_reader :new
 
-  def new=(new)
-    @new = new
-    new = {}
+  def initialize(roster)
+    roster = {}
   end
-
 
 
 end
